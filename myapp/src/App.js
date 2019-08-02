@@ -27,6 +27,16 @@ class App extends Component {
 			ninjas: ninjas
 		})
 	}
+	// Komponent został załadowany
+	componentDidMount() {
+		console.log('component mounted')
+	}
+
+	// Komponent został zmieniony / zaktualizowany
+	componentDidUpdate(prevProps, prevState) {
+		console.log('component updated');
+		console.log(prevProps, prevState);
+	}
 
 	render() {
 		return (
