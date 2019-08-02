@@ -13,7 +13,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<h1>My first React App!</h1>
-				<p>Welcome :o</p>
+				<p>Welcome :D</p>
 				<Ninjas ninjas={this.state.ninjas} />
 			</div>
 		)
